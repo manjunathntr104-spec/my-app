@@ -1,0 +1,38 @@
+.footer {
+  background: skyblue;
+  color: white;
+  text-align: center;
+  padding: 35px 0;
+  border-top: 3px solid #ff608b;
+height: 140px;
+margin-top: 150px;
+margin-bottom: 250px;
+
+}
+
+.footer p {
+  margin: 150px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 150px;
+  margin-top: 190px;
+
+}
+
+.social-icons {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-icons a {
+  font-size: 26px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff608b;
+  transform: scale(1.3);
+}

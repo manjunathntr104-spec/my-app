@@ -1,0 +1,27 @@
+.sports-books-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.sports-books-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.sports-book-card {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.sports-book-card:hover {
+  transform: translateY(-5px);
+  background: #5f9eff;
+  color: white;
+}
