@@ -1,0 +1,16 @@
+/mnt/data/javascript.jpg
+function TechItem() {
+  return (
+    <div>
+      <img 
+        src="/tech/javascript.jpg" 
+        alt="Javascript Book"
+        width="200"
+      />
+      <h3>JavaScript Guide</h3>
+      <p>Price: ₹499</p>
+    </div>
+  );
+}
+
+export default TechItem;
